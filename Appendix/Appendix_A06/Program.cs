@@ -3,6 +3,11 @@ Console.WriteLine(Calculator.Add(1.5, 2.5));
 Greet();
 Greet("さくら");
 
+void Greet(string name = "ゲスト")
+{
+    Console.WriteLine($"こんにちは、{name}さん");
+}
+
 static class Calculator
 {
     public static int Add(int a, int b)
@@ -16,7 +21,3 @@ static class Calculator
     }
 }
 
-void Greet(string name = "ゲスト")
-{
-    Console.WriteLine($"こんにちは、{name}さん");
-}
