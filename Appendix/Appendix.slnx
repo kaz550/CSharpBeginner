@@ -1,0 +1,13 @@
+<Solution>
+<Project Path="Appendix_A01/Appendix_A01.csproj" />
+<Project Path="Appendix_A02/Appendix_A02.csproj" />
+<Project Path="Appendix_A03/Appendix_A03.csproj" />
+<Project Path="Appendix_A04/Appendix_A04.csproj" />
+<Project Path="Appendix_A05/Appendix_A05.csproj" />
+<Project Path="Appendix_A06/Appendix_A06.csproj" />
+<Project Path="Appendix_A07/Appendix_A07.csproj" />
+<Project Path="Appendix_A08/Appendix_A08.csproj" />
+<Project Path="Appendix_A09/Appendix_A09.csproj" />
+<Project Path="Appendix_A10/Appendix_A10.csproj" />
+<Project Path="Appendix_B01_OperatorOverloading/Appendix_B01_OperatorOverloading.csproj" />
+</Solution>

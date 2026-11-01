@@ -1,0 +1,11 @@
+<Solution>
+<Project Path="Day03_Example01/Day03_Example01.csproj" />
+<Project Path="Day03_Example02/Day03_Example02.csproj" />
+<Project Path="Day03_Example03/Day03_Example03.csproj" />
+<Project Path="Day03_Example04/Day03_Example04.csproj" />
+<Project Path="Day03_Example05/Day03_Example05.csproj" />
+<Project Path="Day03_Example06/Day03_Example06.csproj" />
+<Project Path="Day03_Exercise01/Day03_Exercise01.csproj" />
+<Project Path="Day03_Exercise02/Day03_Exercise02.csproj" />
+<Project Path="Day03_Exercise03/Day03_Exercise03.csproj" />
+</Solution>
