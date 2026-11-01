@@ -110,6 +110,12 @@ List<TaskItem> LoadTasks()
             loadFailed = true;
             return new List<TaskItem>();
         }
+        if (loaded.Any(task => task is null || string.IsNullOrWhiteSpace(task.Title)))
+        {
+            loadFailed = true;
+            Console.WriteLine("保存ファイルに不正なタスクが含まれています。");
+            return new List<TaskItem>();
+        }
         return loaded;
     }
     catch (IOException)

@@ -1,16 +1,19 @@
-Console.WriteLine(Add(2, 3));
-Console.WriteLine(Add(1.5, 2.5));
+Console.WriteLine(Calculator.Add(2, 3));
+Console.WriteLine(Calculator.Add(1.5, 2.5));
 Greet();
 Greet("さくら");
 
-int Add(int a, int b)
+static class Calculator
 {
-    return a + b;
-}
+    public static int Add(int a, int b)
+    {
+        return a + b;
+    }
 
-double Add(double a, double b)
-{
-    return a + b;
+    public static double Add(double a, double b)
+    {
+        return a + b;
+    }
 }
 
 void Greet(string name = "ゲスト")
